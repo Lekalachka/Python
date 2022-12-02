@@ -69,24 +69,24 @@
 # print(multy)
 
 
-# 5 Реализовать алгоритм перемешивания списка.
-import random
+# # 5 Реализовать алгоритм перемешивания списка.
+# import random
 
 
-def fill_list(n):
-    fill_list = []
-    for i in range(n):
-        fill_list.append(random.randint(-n, n))
-    return fill_list
+# def fill_list(n):
+#     fill_list = []
+#     for i in range(n):
+#         fill_list.append(random.randint(-n, n))
+#     return fill_list
 
-new_list = fill_list(int(input('Введите число N: ')))
-print(new_list)
-
-# random.shuffle(new_list)
+# new_list = fill_list(int(input('Введите число N: ')))
 # print(new_list)
 
-for i in range(len(new_list-1), -1, -1):
-    j = random.randint(0, i)
-    new_list[i], new_list[j] = new_list[j], new_list[i]
+# # random.shuffle(new_list)
+# # print(new_list)
+
+# for i in range(len(new_list-1), -1, -1):
+#     j = random.randint(0, i)
+#     new_list[i], new_list[j] = new_list[j], new_list[i]
     
-print(new_list)
+# print(new_list)
